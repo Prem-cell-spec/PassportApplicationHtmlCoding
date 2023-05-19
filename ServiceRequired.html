@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Required</title>
+    <style>
+        #top {}
+
+        #heading {
+            background-color: aqua;
+            font-size: 120%;
+            border: 2px;
+            border-radius: 12px;
+            
+            
+        }
+        
+
+        #sub-heading {}
+
+        #round {
+            border: 1px solid red;
+            border-radius: 12px;
+            padding: 5px;
+            background-color: black;
+            color: white;
+        }
+
+        #button {
+            background-color: chartreuse;
+            border-radius: 5%;
+
+        }
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+        }
+        .top {
+            /* margin-left: auto;
+            margin-right: auto; */
+            border: 2 px solid;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="top">
+
+    <form action="applicant.html">
+        <table>
+            <tr>
+                <td id="heading" colspan="2">GOVERNMENT OF INDIA, MINISTRY OF EXTERNAL AFFAIRS PASSPORT APPLICATION FORM</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div > Service Required</div>
+                </td>
+            </tr>
+            <tr>
+                <td id="round" colspan="2">
+                    Applying for
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" checked name="passport" id="fresh">
+                    <label for="fresh">Fresh Passport</label>
+                </td>
+                <td>
+                    <input type="radio" name="passport" id="re">
+                    <label for="re">Re-issue Passport</label>
+                </td>
+            </tr>
+
+            <div>
+                <tr>
+                    <td id="round" colspan="2"> If Re-issue, specify reason(s) </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="reason" id="1">
+                        <label for="1">Validity Expired within 3 years/ Due to Expire</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="reason" id="2">
+                        <label for="2">Exhaustion of Pages</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="reason" id="3">
+                        <label for="3">Validity Expired more than 3 years ago</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="reason" id="4">
+                        <label for="4">Lost Passport</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="reason" id="5">
+                        <label for="5">Change in Existing Personal Particulars</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="reason" id="6">
+                        <label for="6">Damaged Passport</label>
+                    </td>
+
+                </tr>
+            </div>
+
+            <div>
+                <tr>
+                    <td id="round" colspan="2"> If change in existing personal particulars, specify reason(s)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="validate" id="7">
+                        <label for="7">Appearance</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="" id="Signature">
+                        <label for="Signature">Signature</label>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <input type="checkbox" name="" id="Given-Name">
+                        <label for="Given-Name">Given Name</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="validate" id="Surname">
+                        <label for="Surname">Surname</label>
+                    </td>
+                </tr>
+                <tr>
+                   
+                    <td>
+                        <input type="checkbox" name="" id="dob">
+                        <label for="dob">Date of Birth</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="" id="Spouse-Name">
+                        <label for="Spouse-Name">Spouse Name</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="" id="Address">
+                        <label for="Address">Address</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="validate" id="Delete">
+                        <label for="Delete">Delete ECR</label>
+                    </td>
+                   
+
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <td id="round" colspan="2">
+                        Type of Application
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" checked name="type" id="normal">
+                        <label for="normal">Normal</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="type" id="tatkaal">
+                        <label for="tatkaal">Tatkaal</label>
+                    </td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <td id="round" colspan="2">
+                        Type of Passport Booklet
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" checked name="booklet" id="booklet">
+                        <label for="booklet">30 Pages</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="booklet" id="pages">
+                        <label for="pages">60 Pages</label>
+                    </td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <td id="round" colspan="2">
+                        Validity Required
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="validity" id="year">
+                        <label for="year">10 Years</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="validity" id="years">
+                        <label for="years">Up to age 18</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="round" colspan="2">
+                        Upload Documents
+                    </td>
+                </tr>
+                <tr>
+                    
+                    <td>
+                        <label for="years">PhotoGraph</label>
+                        <input type="file" name="validity" id="years"><span>pdf file</span>
+                        
+                    </td>
+                    <td>
+
+                        <label for="years">Signature</label>
+                        <input type="file" name="validity" id="years">
+                        
+                    </td>
+                    
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <td>
+                        <input type="submit" value="Next" id="button">
+
+                    </td>
+                    <td><input type="reset" value="Clear" id="button"></td>
+                </tr>
+
+
+            </div>
+        </table>
+    </form>
+</div>
+    <!-- ----------------------------------------------------------------------------------------------- -->
+</body>
+
+</html>

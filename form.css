@@ -1,0 +1,30 @@
+.heading{
+    text-align: center;
+    color: brown;
+    }
+    
+    .main{
+        padding: 40px;
+         
+        background-color: darkgray;
+        border: solid black 2px;
+        
+    
+        
+    }
+    
+    .table_text{
+     margin-left: 50px;
+    }
+    
+    .div_text{
+        margin-left: 50px;
+        
+    }
+    .button{
+        color: chartreuse;
+        text-align: center;
+        
+          width: 100%;
+          
+    }
